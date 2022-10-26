@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first_name,
+#color {
+  text-decoration: underline;
+}
+
+#first_name {
+  color: red;
+}
+
+#surname {
+  color: blue;
+}
+
+#color {
+  color: violet;
+}
+
+#pref_number {
+  color: black;
+  opacity: 0;
+}
+
+#pref_number:hover {
+  opacity: 1;
+}
